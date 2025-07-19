@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Source Engine Seamshot Calculator</title>
+    <script type="text/javascript" src="scripts/binary-parser.js"></script>
+    <script type="text/javascript" src="scripts/vector.js"></script>
+    <script type="text/javascript" src="scripts/bsp-parser.js"></script>
+    <script type="text/javascript" src="scripts/main.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="main">
+        <h1>Seamshot Calculator</h1>
+
+        <p>
+            Ray collision detection with brushes in Source-based games have a bug 
+            allowing you to shoot through some of the seams. We call them <b>seamshots</b>
+            (more info on that <a target="_blank" href="https://wiki.portal2.sr/Seamshot">here</a>.) 
+            This little tool of mine was created to find these seams in any given 
+            Portal 2 BSP map, and give you a list of <code>sar_drawline</code> commands 
+            in a config file which you can execute in game to see all of the seams. 
+            False positives are undoubtedly certain, and colors make absolutely no sense, 
+            but it's enough for me so heck it, releasing the tool so maybe someone else 
+            can fix it for me lol.
+        </p>
+
+        <label for="sar_mode"> Use SourceAutoRecord drawlines</label> <input type="checkbox" id="sar_mode" onchange="sarModechange();">
+        <br>
+
+        <input type='button' id="bspFileInput" value="Select a BSP file." onclick="requestBSPFile();">
+        <input type='button' id='bspFileLoad' disabled="true" value='Calculate seams' onclick='loadFile();'>
+        <span id="log">
+        
+        </span>
+
+        <span id="credits">Made by <a href="https://github.com/Krzyhau/">Krzyhau</a> and <a href="https://github.com/mundungus443/">tf2excession</a><br><a href="https://github.com/mundungus443/SeamshotCalculator">Source code</a></span>
+    </div>
+
+
+
+</body>
+</html>
