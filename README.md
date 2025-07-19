@@ -4,9 +4,9 @@ file reading bug fixes, local hosting via a new batch file, and changed cfg gene
 
 This is completely safe to use, but feel free to run it through [VirusTotal](https://www.virustotal.com/gui/home/upload) yourself.
 
-You can run this by downloading everything, and running the Run.bat. 
+You can run this by downloading everything, and running the Run.bat (python must be installed!)
 This will then open in your browser, where you upload your bsp files (found in \Steam\steamapps\common\Team Fortress 2\tf\maps). 
-Note: You must have python installed
+
 
 After a moment, it will generate a cfg file(s) which will go into your default browser download folder. 
 Put these into your cfg folder (\Steam\steamapps\common\Team Fortress 2\tf\cfg).
