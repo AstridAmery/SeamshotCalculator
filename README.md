@@ -6,6 +6,7 @@ This is completely safe to use, but feel free to run it through [VirusTotal](htt
 
 You can run this by downloading everything, and running the Run.bat. 
 This will then open in your browser, where you upload your bsp files (found in \Steam\steamapps\common\Team Fortress 2\tf\maps). 
+Note: You must have python installed
 
 After a moment, it will generate a cfg file(s) which will go into your default browser download folder. 
 Put these into your cfg folder (\Steam\steamapps\common\Team Fortress 2\tf\cfg).
@@ -15,3 +16,4 @@ Then you can run tf2, open the map (console > "map MAP_NAME", then use the scrol
 Side note: I am not the original creator of this, and therefore know very little about the maths that went into this, but Krzyhau seems unresponsive, so I made these changes myself. 
 
 Idea originally came from Htwo's newest video on pl_upward: https://youtu.be/BPoJa6HPRSQ?si=7H-17Mdpnj_9TWV5
+
