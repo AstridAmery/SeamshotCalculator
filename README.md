@@ -2,7 +2,7 @@ This is an updated version of Krzyhau's seamshot calculator, that allows you to 
 I have made the addition of:
 file reading bug fixes, local hosting via a new batch file, and changed cfg generation to seperate files if 1mb size is reached. 
 
-This is completely safe to use, but feel free to run it through totalvirus(https://www.virustotal.com/gui/home/upload) yourself.
+This is completely safe to use, but feel free to run it through [VirusTotal](https://www.virustotal.com/gui/home/upload) yourself.
 
 You can run this by downloading everything, and running the Run.bat. 
 This will then open in your browser, where you upload your bsp files (found in \Steam\steamapps\common\Team Fortress 2\tf\maps). 
