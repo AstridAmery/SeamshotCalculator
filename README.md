@@ -11,4 +11,5 @@ Put these into your cfg folder (\Steam\steamapps\common\Team Fortress 2\tf\cfg).
 Then you can run tf2, open the map (console > "map MAP_NAME", then use the scroll wheel up and down to navigate through the various seams present in the map, which will highlight in red. 
 
 Side note: I am not the original creator of this, and therefore know very little about the maths that went into this, but Krzyhau seems unresponsive, so I made these changes myself. 
+
 Idea originally came from Htwo's newest video on pl_upward: https://youtu.be/BPoJa6HPRSQ?si=7H-17Mdpnj_9TWV5
