@@ -1,3 +1,5 @@
+//hosts the tool on your own localhost, in-browser. 
+
 @echo off
 where python >nul 2>nul
 if %errorlevel%==0 (
