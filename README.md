@@ -1,4 +1,7 @@
 This is an updated version of Krzyhau's seamshot calculator, that allows you to find seams in a source engine map.
+![20FAB8~1](https://github.com/user-attachments/assets/36a02412-a98c-4239-a808-48ec04398b40)
+
+
 I have made the addition of:
 file reading bug fixes, local hosting via a new batch file, and changed cfg generation to seperate files if 1mb size is reached. 
 
@@ -15,7 +18,6 @@ Then you can run tf2, open the map (console > "map MAP_NAME", and load into the 
 Now you can use the scroll wheel up and down to navigate through the various seams present in the map, which will highlight in red. 
 
 Important info for finding and using seams - You must be looking through them at a 90 degree angle to be able to shoot through! The best way to verify this is using cl_showpos 1, verifying your Y angle is a 90 degree (0 -180 0 for example), and then when your sniper reticle dissapears, it means you can now shoot through it. <img width="1914" height="1079" alt="image" src="https://github.com/user-attachments/assets/9b692ac2-656e-42f7-930e-5b6a12c9b930" />
-
 
 Side note: I am not the original creator of this, and therefore know very little about the maths that went into this, but Krzyhau seems unresponsive, so I made these changes myself. 
 
