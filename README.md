@@ -11,7 +11,8 @@ This will then open in your browser, where you upload your bsp files (found in \
 After a moment, it will generate a cfg file(s) which will go into your default browser download folder. 
 Put these into your cfg folder (\Steam\steamapps\common\Team Fortress 2\tf\cfg).
 
-Then you can run tf2, open the map (console > "map MAP_NAME", then use the scroll wheel up and down to navigate through the various seams present in the map, which will highlight in red. 
+Then you can run tf2, open the map (console > "map MAP_NAME", and load into the map. Once in, enable the various commands for testing (mp_tournament 1, sv_cheats 1, noclip, god, etc) and then enable the config using "exec cfg_name" (example: exec pl_borneo_seams).
+Now you can use the scroll wheel up and down to navigate through the various seams present in the map, which will highlight in red. 
 
 Side note: I am not the original creator of this, and therefore know very little about the maths that went into this, but Krzyhau seems unresponsive, so I made these changes myself. 
 
